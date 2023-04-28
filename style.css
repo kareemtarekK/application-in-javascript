@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#slider{
+    padding: 30px;
+    text-align: center;
+    width: 40%;
+    height: 65vh;
+    border-top: solid #888 1.5px;
+    border-left: solid #888 1.5px;
+    border-radius: 9px;
+    margin: auto;
+    position: relative;
+    top: 130px;
+    box-sizing: border-box;
+    background-color: turquoise;
+    box-shadow: 3px 9px 9px turquoise;
+}
+#slider #img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-color: #888;
+    border-style: solid;
+    border-width: 1px;
+}
+#slider #p{
+    font-size: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+    top: 3px;
+}
+#slider #btn1{
+    padding: 10px 40px;
+    border: solid 0px transparent;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0,.7);
+    cursor:grab;
+    transition: background-color 1.5s;
+    position: relative;
+    bottom: 310px;
+    right: 277px;
+}
+#slider #btn1:hover{
+    background-color: blue;
+}
+#slider #btn2{
+    padding: 10px 40px;
+    border: solid 0px transparent;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+    cursor: grab;
+    transition: background-color 1.5s;
+    position: relative;
+    bottom: 310px;
+    left: 277px;
+}
+
+#slider #btn2:hover{
+    background-color: blue;
+}
+#slider #id{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid #888 1.5px;
+    position: relative;
+    left: 20%;
+    background-color: #888;
+}
+#new{
+    padding: 10px 20px;
+    border: solid 0px transparent;
+    position: relative;
+    top: 150px;
+    left: 943px;
+    cursor: pointer;
+    color: blueviolet;
+    transition: padding 1.5s;
+    border-radius: 9px;
+}
+#new:hover{
+    padding: 5px 10px;
+    background-color: blue;
+    color: black;
+}
+.show{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,.8);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+#form form{
+    width: 40%;
+    height: 65%;
+    border-radius: 9px;
+    border: solid #888 1.5px;
+    background-color: wheat;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;    
+}
+#form form input{
+    width: 80%;
+    padding: 15px 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    position: relative;
+    top: 30px;
+    border-radius: 9px;
+    border: solid 0px transparent;
+    outline: none;
+    transition: padding 1.5s;
+}
+#form form input:focus{
+    padding: 25px 30px;
+}
+#form form #save{
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: solid 0px transparent;
+    position: relative;
+    top: 70px;
+    left: 260px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 1.5s;
+}
+#form form #save:hover{
+    background-color: blue;
+}
+#form form #close{
+    padding: 10px 20px;
+    position: relative;
+    bottom: 235px;
+    border: solid 0px transparent;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    transition: background-color 1.5s;
+}
+#form form #close:hover{
+    background-color: blue;
+}
+#form form input::placeholder{
+    font-size: 21px;
+    color: #888;
+}
+#form form #hhh{
+font-size: 25px;
+color: white;
+background-color:rgba(0, 0, 0,.7);
+text-align: center;
+}
